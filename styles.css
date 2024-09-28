@@ -21,8 +21,9 @@ header{
 }
 .usrlogo{
     align-items: right;
-    width: 100px;
+    width: 50px;
     height: 60px;
+    padding: 2px;
 }
 .ucmplogo{
     align-items: right;
