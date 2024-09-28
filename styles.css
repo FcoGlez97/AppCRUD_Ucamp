@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background: rgb(228, 223, 223);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header{
+    background: rgb(23,5,38);
+    background: linear-gradient(90deg, rgba(23,5,38,1) 0%, rgba(34,88,142,1) 48%, rgba(87,160,175,1) 100%);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flexbox;
+}
+.usrlogo{
+    align-items: right;
+    width: 100px;
+    height: 60px;
+}
+.ucmplogo{
+    align-items: right;
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+section {
+    margin: 20px;
+    margin-top: 5px;
+}
+
+#form-section, #list-section {
+    background: rgb(23,5,38);
+    background: linear-gradient(90deg, rgba(23,5,38,1) 0%, rgba(34,88,142,1) 48%, rgba(87,160,175,1) 100%);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(136, 197, 224, 1);
+    color: white;
+}
+
+footer {
+    background: rgb(23,5,38);
+    background: linear-gradient(90deg, rgba(23,5,38,1) 0%, rgba(34,88,142,1) 48%, rgba(87,160,175,1) 100%);
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin-top: auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.edit {
+    background-color: #ffc107;
+}
+
+button.delete {
+    background-color: #dc3545;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+    section {
+        margin: 10px;
+    }
+}
