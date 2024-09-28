@@ -36,9 +36,9 @@ function addArticleToList(article) {
         </div>
     `;
 
-    // Botones editar y eliminar
-    li.querySelector('.edit').addEventListener('click', () => editArticle(article, li));
-    li.querySelector('.delete').addEventListener('click', () => deleteArticle(article, li));
+// Botones editar y eliminar
+li.querySelector('.edit').addEventListener('click', () => editArticle(article, li));
+li.querySelector('.delete').addEventListener('click', () => deleteArticle(article, li));
     
     articleList.appendChild(li);
 }
@@ -63,7 +63,7 @@ form.addEventListener('submit', function(event) {
 
     addArticleToList(newArticle);
 
-    // Limpia formulario
+// Limpia formulario
     articleNameInput.value = '';
     articlePriceInput.value = '';
 });
