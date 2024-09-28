@@ -34,7 +34,7 @@ header{
 }
 
 section {
-    margin: 20px;
+    margin: 10px;
     margin-top: 5px;
 }
 
@@ -58,35 +58,38 @@ footer {
 
 ul {
     list-style: none;
-    padding: 0;
+    padding: 10px;
 }
 
 li {
     padding: 10px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 3px solid #ddd;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 button {
-    background-color: #28a745;
+    background-color: #1e2458;
     color: white;
-    border: none;
+    border: 1px solid white;
     padding: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
 }
 
+button:hover{
+    opacity: 0.5;
+}
+
 button.edit {
-    background-color: #ffc107;
+    background-color: #218b2f;
 }
 
 button.delete {
-    background-color: #dc3545;
+    background-color: #ff0019;
 }
 
-/* Responsive Design */
 @media (max-width: 600px) {
     body {
         font-size: 14px;
