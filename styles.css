@@ -91,7 +91,7 @@ button.delete {
     background-color: #ff0019;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 300px) {
     body {
         font-size: 14px;
     }
